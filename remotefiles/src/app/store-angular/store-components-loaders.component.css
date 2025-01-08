@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e2a38;
+    color: #fff;
+}
+.sidebar {
+    width: 200px;
+    background-color: #2b3a4b;
+    height: 100vh;
+    position: fixed;
+    /* padding-top: 20px; */
+}
+.sidebar h2 {
+    text-align: center;
+    color: #00bcd4;
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+}
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.sidebar ul li:hover {
+    background-color: #1e2a38;
+}
+.main-content {
+    margin-left: 200px;
+    padding: 10px;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b3a4b;
+    padding: 10px 20px;
+    align-items: center;
+}
+.top-nav .icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.performance-review {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.performance-review .card {
+    background-color: #2b3a4b;
+    padding: 20px;
+    border-radius: 5px;
+    width: 23%;
+    text-align: center;
+}
+.performance-review .card h3 {
+    margin: 0;
+    font-size: 24px;
+}
+.performance-review .card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.charts .chart {
+    background-color: #2b3a4b;
+    padding: 20px;
+    border-radius: 5px;
+    width: 48%;
+}
+.charts .chart img {
+    width: 100%;
+}

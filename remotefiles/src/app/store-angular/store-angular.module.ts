@@ -8,11 +8,17 @@ import { UserBlogModule } from './user-blog/user-blog.module';
 import { UserContactsModule } from './user-contacts/user-contacts.module';
 import { UserServicesModule } from './user-services/user-services.module';
 import { UserSupportModule } from './user-support/user-support.module';
-import { UserEmailServicesModule } from './user-email-services/user-email-services.module';
+import { StoreComponentsLoadersComponent } from './store-components-loaders.component';
+import { UserSerivesHomeComponent } from './user-serives-home/user-serives-home.component';
+import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    StoreComponentsLoadersComponent,
+    UserSerivesHomeComponent
+  ],
   imports: [
     CommonModule,
     StoreAngularRoutingModule,
@@ -22,9 +28,8 @@ import { UserEmailServicesModule } from './user-email-services/user-email-servic
     UserContactsModule,
     UserServicesModule,
     UserSupportModule,
-    UserEmailServicesModule,
-    
-
+    RouterModule,
+    FormsModule,
   ]
 })
 export class StoreAngularModule { }
