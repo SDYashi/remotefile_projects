@@ -10,7 +10,7 @@ import { MyusersFilesModule } from './myusers-files/myusers-files.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

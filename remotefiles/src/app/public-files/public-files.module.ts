@@ -33,6 +33,13 @@ import { SupportFAQComponent } from './MyComponents/support/support-faq/support-
 import { PublicfilesLoadersComponent } from './publicfiles-loaders.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { PublicDownloadGetfilesComponent } from './MyComponents/download/public-download-getfiles/public-download-getfiles.component';
+import { MakedonationForUsComponent } from './MyComponents/charity/makedonation-for-us/makedonation-for-us.component';
+import { MakedonationForWelfareComponent } from './MyComponents/charity/makedonation-for-welfare/makedonation-for-welfare.component';
+import { WelfareDonnerListComponent } from './MyComponents/charity/welfare-donner-list/welfare-donner-list.component';
+import { WelfarePhotoGallaryComponent } from './MyComponents/charity/welfare-photo-gallary/welfare-photo-gallary.component';
+import { WelfareAchievementsComponent } from './MyComponents/charity/welfare-achievements/welfare-achievements.component';
+import { CharityHomeComponent } from './MyComponents/charity/charity-home/charity-home.component';
 
 
 @NgModule({
@@ -65,7 +72,14 @@ import { RouterModule } from '@angular/router';
     ServicesFilesViaSmsLinkComponent,
     SupportHomeComponent,
     SupportFAQComponent,
-    PublicfilesLoadersComponent
+    PublicfilesLoadersComponent,
+    PublicDownloadGetfilesComponent,
+    MakedonationForUsComponent,
+    MakedonationForWelfareComponent,
+    WelfareDonnerListComponent,
+    WelfarePhotoGallaryComponent,
+    WelfareAchievementsComponent,
+    CharityHomeComponent
   ],
   imports: [
     CommonModule,
