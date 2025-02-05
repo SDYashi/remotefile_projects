@@ -13,7 +13,6 @@ import { BlogAddNewTopicsComponent } from './MyComponents/Blogs/blog-add-new-top
 import { BlogSearchingTitlesComponent } from './MyComponents/Blogs/blog-searching-titles/blog-searching-titles.component';
 import { BlogCategorywiseListComponent } from './MyComponents/Blogs/blog-categorywise-list/blog-categorywise-list.component';
 import { ContactUsComponent } from './MyComponents/Contact/contact-us/contact-us.component';
-import { ShareExperienceComponent } from './MyComponents/Contact/share-experience/share-experience.component';
 import { ShareFeedbackComponent } from './MyComponents/Contact/share-feedback/share-feedback.component';
 import { PublicDownloadComponent } from './MyComponents/download/public-download/public-download.component';
 import { PublicDownloadGetfilesComponent } from './MyComponents/download/public-download-getfiles/public-download-getfiles.component';
@@ -28,13 +27,11 @@ import { CharityHomeComponent } from './MyComponents/charity/charity-home/charit
 import { MakedonationForUsComponent } from './MyComponents/charity/makedonation-for-us/makedonation-for-us.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/public', pathMatch: 'full' },
-  { path: '**', redirectTo: '/public', pathMatch: 'full' },
   {
     path: 'public',
     component: PublicfilesLoadersComponent,
     children: [
-      { path: '', redirectTo: 'home', pathMatch: 'full' }, // Relative redirection to 'home'
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: 'home', component: PublicHomeComponent },
       { path: 'about-us', component: AboutUsComponent },
       { path: 'contacts-us', component: ContactUsComponent },
@@ -50,7 +47,6 @@ const routes: Routes = [
       { path: 'blogs-add-new-topics', component: BlogAddNewTopicsComponent },
       { path: 'blogs-searching-titles', component: BlogSearchingTitlesComponent },
       { path: 'blogs-category-wise-list', component: BlogCategorywiseListComponent },
-      { path: 'contacts-share-experience', component: ShareExperienceComponent },
       { path: 'contacts-share-feedback', component: ShareFeedbackComponent },
       { path: 'downloads', component: PublicDownloadComponent },
       { path: 'downloads-getfiles', component: PublicDownloadGetfilesComponent },

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top text-white" style="border-bottom: 2px solid rgb(230, 232, 229);">
     <a class="navbar-brand" href="#">Remotefiles</a>
     <button
         class="navbar-toggler"
@@ -17,25 +17,34 @@
                 <a class="nav-link" routerLink="/public/home" routerLinkActive="active">Home</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" routerLink="/public/about-us" routerLinkActive="active">About Us</a>
+                <a class="nav-link" routerLink="/public/services" routerLinkActive="active">Services</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" routerLink="/public/contacts-us" routerLinkActive="active">Contact Us</a>
+                <a class="nav-link" routerLink="/public/support" routerLinkActive="active">Support</a>
             </li>
-            <li class="nav-item active">
+            <!-- <li class="nav-item active">
                 <a class="nav-link" routerLink="/public/blogs" routerLinkActive="active">Blogs</a>
+            </li> -->
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/public/charity" routerLinkActive="active">Donation</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" routerLink="/public/downloads" routerLinkActive="active">Downloads</a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/public/about-us" routerLinkActive="active">AboutUs</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/public/contacts-us" routerLinkActive="active">ContactUs</a>
+            </li>
         </ul>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item pr-3">
-                    <a class="nav-link btn btn-primary" routerLink="/public/join-us">Join Us</a>
+                <li class="nav-item pr-3 active">
+                    <a class="nav-link button-85" routerLink="/public/join-us">Join Us</a>
                 </li>
-                <li class="nav-item pr-3">
-                    <a class="nav-link btn btn-danger" routerLink="/public/login">Log In</a>
+                <li class="nav-item pr-3 active">                  
+                    <a class="nav-link button-85" routerLink="/public/login">Log In</a>
                 </li>
             </ul>
         </div>
@@ -43,3 +52,59 @@
 </nav>
 
 <router-outlet></router-outlet>
+<br>
+<!-- Bootstrap Footer Design -->
+<div class="footers container-fluid  py-4 bg-dark">
+    <div class="row">
+  
+      <!-- Remotefiles Column -->
+      <div class="col-lg-2 col-md-4 mb-3">
+        <h2 class="footer_header_font">Remotefiles</h2>
+        <p>Remotefiles is a web interface for users where sharing files securely and storing them in logical form with permissions if required for security.</p>
+      
+      </div>
+  
+      <!-- Helps Column -->
+      <div class="col-lg-2 col-md-4 mb-3">
+        <h4 class="footer_header_font">Helps</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Search Any Blogs</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+  
+      <!-- Get in Touch Column -->
+      <div class="col-lg-2 col-md-4 mb-3">
+        <h3 class="footer_header_font">Get in Touch</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">FeedBack</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">New Letters</a></li>
+        </ul>
+      </div>
+  
+      <!-- Explore Us Column -->
+      <div class="col-lg-3 col-md-4 mb-3">
+        <h3 class="footer_header_font">Explore Us</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">Sharing Files</a></li>
+          <li><a href="#">Upload Files in MyStore</a></li>
+          <li><a href="#">Remote Support</a></li>
+          <li><a href="#">Chating Services</a></li>
+        </ul>
+      </div>
+  
+      <!-- Company Info Column -->
+      <div class="col-lg-3 col-md-4 mb-3">
+        <h3 class="footer_header_font">About Us</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">Our Contributer's Profiles</a></li>
+          <li><a href="#">Terms of Privacy Policy</a></li>
+          <li><a href="#">Data Policy</a></li>
+          <li><a href="#">Terms of Services</a></li>
+        </ul>
+      </div>  
+    </div>
+  </div>

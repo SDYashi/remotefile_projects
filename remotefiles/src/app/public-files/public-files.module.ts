@@ -16,7 +16,6 @@ import { BlogCategorywiseListComponent } from './MyComponents/Blogs/blog-categor
 import { BlogSearchingTitlesComponent } from './MyComponents/Blogs/blog-searching-titles/blog-searching-titles.component';
 import { BlogHomeComponent } from './MyComponents/Blogs/blog-home/blog-home.component';
 import { ContactUsComponent } from './MyComponents/Contact/contact-us/contact-us.component';
-import { ShareExperienceComponent } from './MyComponents/Contact/share-experience/share-experience.component';
 import { ShareFeedbackComponent } from './MyComponents/Contact/share-feedback/share-feedback.component';
 import { PublicStoreComponent } from './MyComponents/Store/public-store/public-store.component';
 import { PublicHomeComponent } from './MyComponents/home/public-home/public-home.component';
@@ -58,7 +57,6 @@ import { CharityHomeComponent } from './MyComponents/charity/charity-home/charit
     BlogSearchingTitlesComponent,
     BlogHomeComponent,
     ContactUsComponent,
-    ShareExperienceComponent,
     ShareFeedbackComponent,
     PublicStoreComponent,
     PublicHomeComponent,
